@@ -1,7 +1,6 @@
 # coding: utf-8
 
-from flask import Flask, request, url_for
-
+from flask import Flask, request, url_for, jsonify
 from db import noticias
 
 
@@ -68,12 +67,7 @@ def index():
 @app.route("/noticia/<int:noticia_id>")
 def noticia(noticia_id):
     noticia = noticias.find_one(id=noticia_id)  # query no banco de dados
-    noticia_html = u"""
-        <h1>{titulo}</h1>
-        <p>{texto}</p>
-    """.format(**noticia)  # remember, Python is full of magic!
-
-    return base_html.format(title=noticia['titulo'], body=noticia_html)
+    return jsonify(noticia=noticia)
 
 
 if __name__ == "__main__":
