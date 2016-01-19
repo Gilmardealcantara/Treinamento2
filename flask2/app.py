@@ -48,27 +48,12 @@ def cadastro():
 
 @app.route("/noticias")
 def index():
-
-    noticia_template = u"""
-        <a href="/noticia/{noticia[id]}">{noticia[titulo]}</a>
-    """
-
-    # it's a kind of magic :)
-    todas_as_noticias = [
-        noticia_template.format(noticia=noticia)
-        for noticia in noticias.all()
-    ]
-
-    return base_html.format(
-        title=u"Todas as notícias",
-        body=u"<br />".join(todas_as_noticias)
-    )
+    return jsonify(noticias=[noticia for noticia in noticias.all()])
 
 @app.route("/noticia/<int:noticia_id>")
 def noticia(noticia_id):
     noticia = noticias.find_one(id=noticia_id)  # query no banco de dados
     return jsonify(noticia=noticia)
-
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True)
