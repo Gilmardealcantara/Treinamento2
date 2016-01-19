@@ -1,0 +1,37 @@
+1 http://www.diogomatheus.com.br/blog/php/requisicoes-sincronas-e-assincronas/
+1 http://protocoloti.blogspot.com.br/2012/11/http-requisicao-e-resposta.html
+
+2 http://pt.slideshare.net/watinha1/apresentacao-17018075
+2 http://www.elizabete.com.br/site/Outros/Entradas/2011/2/20_Tecnologia_Web_files/02-TiposDeSites.pdf
+
+3 http://protocoloti.blogspot.com.br/2012/11/http-requisicao-e-resposta.html
+3 https://nandovieira.com.br/entendendo-um-pouco-mais-sobre-o-protocolo-http
+
+
+4 http://www.ehow.com.br/transferencia-arquivo-http-vs-ftp-sobre_16165/
+4 http://www.linhadecodigo.com.br/artigo/3578/php-upload-de-arquivos.aspx
+
+1 transferência assincrona vs sincrona  2 
+2 Cliente servidor  2 
+	site statico 
+	site dinamico
+3 protocollo http  5 
+4 Como funciona a transferência de arquivos HTTP , upload e download, vantagem desvantagem 2  
+5 http html 
+6 xmj, json  
+
+
+pode ser util
+
+definição : HTTP : O HTTP é um protocolo de comunicação para distribuição de objetos de hipermídia referenciados por uma URL
+
+http://www.netsoft.inf.br/aulas/4_SIN_Programacao_Cliente_Servidor/Fundamentos_de_Cliente-Servidor.pdf
+
+add ainda
+REST muito bom 
+http://tableless.com.br/o-grande-desencontro-http-com-o-html/
+https://distopico.wordpress.com/traducao-de-how-i-explained-rest-to-my-wife/
+
+json xml
+http://phpsp.org.br/web-apis-xml-ou-json/
+
